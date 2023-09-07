@@ -26,10 +26,13 @@ Machine project also promotes sustainability and economic development
 on the conveyor belt. If the IR sensor gives a value of HIGH, then the DC motor will 
 start rotating which will eventually rotate the conveyor belt and make the box move.
 This mechanism can conserve energy.
+
 • Now, we have two ultrasonic sensors each on both sides of the conveyor, which would 
 detect the size of the box on the conveyor.
+
 • As the size of the box is stored now, we have another IR sensor that will detect the 
 object’s presence in the range of the servo, as the second IR sensor reads HIGH the 
 servo motor will rotate and move the object with size more than 5 cm to the other side 
 of the servo. Whereas for objects with a size less than 5 cm, the servo will not rotate.
+
 • So, in this manner the objects will get sorted based on a threshold size of 5cm.
